@@ -23,7 +23,8 @@ function copyMovie(movies) {
 
     let elMovieLink = document.createElement("a");
     elMovieLink.className = "text-decoration-none movie__link"
-    elMovieLink.href = `https://www.imdb.com/title/${movie.IimdbID}/?ref_=hm_tpks_tt_i_6_pd_tp1_pbr_ic`;
+    elMovieLink.href = `https://www.imdb.com/title/${movie.imdbID}/?ref_=hm_fanfav_tt_i_2_pd_fp1`;
+    elMovieLink.target = "blank"
     elMovieLink.textContent = "IMDB →"
 
     elMovieItem.append(elMovieImg, elTitle, elMovieYear, elMovieLink)
