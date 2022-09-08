@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.movies__form {
+  max-width: 500px;
+}
+
+.movie__item {
+  text-align: center;
+  position: relative;
+  max-width: 300px;
+}
+
+.movie__link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: auto;
+  padding-left: 20px;
+}

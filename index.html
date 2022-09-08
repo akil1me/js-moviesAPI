@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Movies API</title>
+</head>
+
+<body>
+  <main>
+    <section class="movies">
+      <div class="movies__container container">
+        <h1 class="text-center mb-4 h1">Search movie</h1>
+        <div class="movies__inner">
+          <form class="movies__form mb-5">
+            <div class="row">
+              <div class="col-10 p-0">
+                <input class="movies__serchInput form-control" type="text" aria-label="search-movie"
+                  placeholder="search..." required>
+              </div>
+              <div class="col-2 ps-1">
+                <button class="btn btn-primary" type="submit">search</button>
+              </div>
+            </div>
+          </form>
+
+          <ul class="movies__list list-unstyled justify-content-around d-flex flex-wrap"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
